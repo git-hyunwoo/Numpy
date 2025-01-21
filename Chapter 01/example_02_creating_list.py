@@ -17,3 +17,13 @@ b = np.array(t)
 
 print(b)
 print(f"type(b) : {type(b)}")
+
+# 메모리에 저장된 레퍼런스(주소) 확인하기
+print(f"a.data : {a.data}")
+
+# a.data의 obj를 출력하면 다차원 배열의 값을 보여준다. 
+print(f"a.data.obj : {a.data.obj}")
+
+# 속성 base는 다차원 배열의 메모리를 공유할 때 원본 레퍼런스를 저장한다.
+c = b
+print(f"c.base is b.base : {c.base is b.base}")
