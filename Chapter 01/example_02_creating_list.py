@@ -32,3 +32,7 @@ print(f"c.base is b.base : {c.base is b.base}")
 # 모든 변수를 조회하면 다차원 배열의 변경된 것을 볼 수 있다.
 c[0] = 100
 print(f"c : {c}")
+print(f"b : {b}")
+
+d = np.array(b)
+print(f"d : {d}")
