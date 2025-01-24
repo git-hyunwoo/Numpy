@@ -34,5 +34,6 @@ c[0] = 100
 print(f"c : {c}")
 print(f"b : {b}")
 
+# 배열 복사
 d = np.array(b)
 print(f"d : {d}")
